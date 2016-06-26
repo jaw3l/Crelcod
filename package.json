@@ -1,0 +1,34 @@
+{
+	"name": "Crelcod",
+	"version": "0.1a",
+	"description": "Discordie based multifunction bot",
+	"author": "jaw3l",
+	"main": "core.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jaw3l/Crelcod"
+	},
+	"bugs": {
+		"url": "https://github.com/jaw3l/Crelcod/issues"
+	},
+	"engines": {
+		"node": ">=4.0.0"
+	},
+	"scripts": {
+		"start": "node core.js"
+	},
+	"license": "GNU",
+	"dependencies": {
+		"discordie": "qeled/discordie",
+		"os":"^0.1.1",
+		"superagent": "^2.0.0",
+		"xml2js": "^0.4.16",
+		"cleverbot-node": "^0.2.2",
+		"osu-api": "^0.0.3",
+		"chalk": "^1.1.3",
+		"entities": "^1.1.1",
+		"csslint": "^0.10.0",
+		"require-reload": "^0.2.2"
+	}
+	}
+}
